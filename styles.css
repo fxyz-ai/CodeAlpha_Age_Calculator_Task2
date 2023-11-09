@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rasa&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #25283D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #8F3985;
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+    color: #fff;
+    font-family: 'Rasa', serif;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8F3985;
+    color: #25283D;
+    border: 1px solid #333;
+    font-size: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;    
+    transition: .3s ease-out;
+}
+
+button:hover {
+    background-color: #25283D;
+    color: #8F3985;
+    border: 1px solid #8F3985;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Rasa', serif;
+}
